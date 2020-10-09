@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './Home.css';
-// import NavBar from '../NavBar/NavBar';
+ import NavBar from '../NavBar/NavBar';
 import {Button, Form, FormControl} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
@@ -15,7 +15,7 @@ const Home = () => {
 
     return (
         <>
-       
+       <NavBar/>
 
         <div className="topbar">
             <h1 className="text-center mb-4">I grow by helping people in need.</h1>
