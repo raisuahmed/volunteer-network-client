@@ -1,0 +1,59 @@
+.login-container{
+    text-align: center;
+    background-color: rgb(216, 195, 4);
+  
+}
+
+.logo img{
+    width: 300px;
+    height: auto;
+}
+  
+.createAccount-section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+
+.createAccountWithFbGoogle{
+    width: 450px;
+    height: 150px;
+    box-shadow: 3px 2px 5px 5px rgba(7, 4, 199, 0.37);
+border-radius: 5px 5px ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+}
+
+.createAccountWithFbGoogle img{
+    width: 30px;
+    height: auto;
+}
+
+.loginBtn{
+    display: flex;
+    border: 1px solid #b308dd;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 320px;
+    padding: 3px 3px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginBtn p{
+    margin: 0 30px;
+}
+
+.loginBtn:hover{
+    background-color: rgb(5, 187, 219);
+    color: rgb(24, 21, 21);
+    transition: .2s;
+}
