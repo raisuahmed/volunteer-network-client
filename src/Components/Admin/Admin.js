@@ -16,11 +16,11 @@ const Admin = () => {
     const [allEvents, setAllEvents] = useState([]);
 
     const loadAllEvents = () => {
-        // useEffect(() => {
+        
             fetch('https://pure-badlands-37217.herokuapp.com/allEvents')
                 .then(res => res.json())
                 .then(data => setAllEvents(data))
-        // }, [dp])
+       
     }
 
     if (allEvents.length === 0) {
@@ -54,11 +54,11 @@ const Admin = () => {
             <Table striped bordered hover className="text-center">
                 <thead>
                     <tr>
-                        <th>Name</th>
+                        <th>Full Name</th>
                         <th>Email</th>
                         <th>Registration Date</th>
-                        <th>Event</th>
-                        <th>Action</th>
+                        <th>description</th>
+                        <th>Organize books at the library</th>
                     </tr>
                 </thead>
                 <tbody>

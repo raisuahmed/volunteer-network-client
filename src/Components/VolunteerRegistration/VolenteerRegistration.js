@@ -1,7 +1,7 @@
 import React, {useContext, useEffect, useState} from 'react';
 import {Link, useHistory, useParams} from 'react-router-dom';
 import {UserContext} from '../../App';
-// import './VolenteerRegistration.css'
+
 
 const VolenteerRegistration = () => {
     const {id} = useParams();

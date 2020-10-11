@@ -64,9 +64,9 @@ const EventTasks = () => {
                                         <div className="ml-3">
                                             <h2>{event.organization}</h2>
                                             <h5>Date: {event.date}</h5>
-                                            {/* <div className="mt-5"> */}
+                                            
                                                 <button onClick={() => handleDelete(event.id)} className="btn btn-danger mt-4">Cancel</button>
-                                            {/* </div> */}
+                                            
                                         </div>
                                     </div>
                                 )
@@ -82,4 +82,3 @@ const EventTasks = () => {
 export default EventTasks;
 
 
-// style={{display: hide ? 'none' : 'null'}}
